@@ -1,7 +1,7 @@
 # browserBuilding
 browserBuilding是一个由Justin116开发的项目。目标是使用前端语言HTML、CSS和JavaScript写出一个浏览器主页。欢迎Star一下！
 # 开发进度（上传日志）
-## 2021/06/01
+## 2021/01/06
 ### 基本功能
 上传
 - 背景图片
