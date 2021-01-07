@@ -63,3 +63,62 @@ body {
 .searchBox:focus::placeholder {
   color: #aaa;
 }
+
+.icons {
+  --iconsWidth: 35vh;
+  width: var(--iconsWidth);
+  position: absolute;
+  top: 45vh;
+  left: calc((100vw - var(--iconsWidth)) / 2);
+}
+
+.githubIconBackground {
+  height: 8vh;
+  width: 15vh;
+  background-color: rgba(255, 255, 255, .5);
+  float: left;
+  border-radius: 4vh;
+  transition: background-color .1s linear;
+}
+
+.githubIconBackground:hover {
+  background-color: rgba(255, 255, 255, .8);
+}
+
+.baiduIconBackground {
+  height: 8vh;
+  width: 15vh;
+  background-color: rgba(255, 255, 255, .5);
+  float: right;
+  border-radius: 4vh;
+  transition: background-color .1s linear;
+}
+
+.baiduIconBackground:hover {
+  background-color: rgba(255, 255, 255, .8);
+}
+
+
+.icon {
+  height: 7vh;
+  width: 7vh;
+  margin-top: calc((8vh - 7vh) / 2);
+  margin-left: calc((15vh - 7vh) / 2);
+  transition: fill .1s linear;
+}
+
+.githubIcon {
+  fill: #fff;
+}
+
+.githubIconBackground:hover > .githubIcon {
+  fill: #aaa;
+}
+
+.baiduIcon {
+  fill: #fff;
+}
+
+.baiduIconBackground:hover > .baiduIcon {
+  fill: #aaa;
+}
